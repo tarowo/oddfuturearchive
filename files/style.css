@@ -1,0 +1,184 @@
+/** 
+ * Generic 
+ */
+
+body{ height: 100%; background: #fff;   background: url(/web/20180716111659im_/http://oddfuture.com/music/images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+body, select, input, textarea {
+  color: #444;
+  font-family: cooper_std_blackregular, helvetica, arial, sans-serif;
+    background: url(bg-home.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  
+
+input[type="submit"], a.button, .btn 
+        { font-size:10px; font-weight:normal; padding:6px 13px; 
+        background:#00abb9; text-transform:uppercase; border-radius:5px; 
+        box-shadow:2px 2px #666; clear:both; margin:5px;
+        color:#fff; border:none; }
+        
+
+input[type="submit"]:hover, a.button:hover { background:#ff1bd3; color:#000; }
+input[type="submit"].btn-light { background:#ccc; font-size:10px; color:#333; margin:5px 0; }
+input[type="submit"].btn-light:hover { background:#fff; }
+
+h1, h2, h3, h4, h5, h6 { color:#000; text-transform:uppercase; 
+                        font-family: cooper_std_blackregular, helvetica, arial, sans-serif; }
+
+h1{ font-size: 18px; }
+h2{ font-size: 18px; margin: 0 0 5px 0; }
+h3{ font-size: 14px; margin: 0 0 8px 0; }
+h4{ margin: 0 0 8px 0; }
+
+a, a:active { color: #000; text-decoration: none; }
+a:hover { color: #999; }
+#account #main a, #addresses #main a, .page #main p a, #shipping-info a 
+{ border-bottom:dotted #999 1px; }
+footer a, nav a { border-bottom:none; }
+
+
+p{ 
+  margin: 0 0 1.2em 0; 
+  line-height: 1.5;
+  }
+
+li{ margin: 0 0 .75em 0; }
+
+.font-up { text-transform:uppercase; }
+
+/**
+ * Structure
+ */
+
+#main, footer, header { width: 1150px; margin: 0 auto; position:relative; padding:0; clear:both; }
+
+/* grid */
+.column, .columns { float:left; display:inline; margin-right:25px; }
+.column.last, .columns.last { margin-right:0; }
+/*.one.column { width:231px; }
+.two.columns { width:474px; }
+.three.columns { width:717px; }
+.four.columns { width:960px; }
+*/
+
+/**
+ * Header
+ */ 
+
+
+/**
+* Side Navigation (main)
+**/
+
+
+/*Hodgy one-offs*/
+body#hodgy { background: url(bghodgy.jpg); height:1800px; }
+a.main-nav.hodgy { color:#00CCFF; }
+    
+/** 
+ * Footer
+ */ 
+footer { padding:25px; clear:both; color:#000; font-family:helvetica, arial; font-size:10px; } 
+
+
+/**
+* static pages
+**/
+.page h1 { margin-bottom:10px; }
+.page ul { margin:15px; }
+
+/*help page*/
+#help-page { margin-left: 265px; }
+#help-page p { color:#000; font-size:18px; }
+#help-page a { color:#3BA4E8; border-bottom:none !important; text-decoration:underline; }
+
+/**
+* Collection
+*/
+a.title { color:#000; text-transform:uppercase; display:block; text-align:center; font-size:17px; }
+.product-img, a.title { width:200px; }
+.collection-products { float:right; width:875px; }
+.thumb { margin-bottom:25px; height:350px; }
+
+/*modal mode*/
+#product-window { position:absolute; width:1150px; height:auto; background:#fff; 
+                    -webkit-box-shadow: 0px 0px 30px 30px rgba(243, 138, 178, .5);
+                    box-shadow: 0px 0px 30px 30px rgba(243, 138, 178, .5); 
+                    display:none; }
+
+
+/*Golfwang Section*/
+.golflogo { margin:50px 0 40px; width:100%; text-align: center; }
+.golfwang { background: #fff; font-family:Arial, Helvetica, sans-serif; color:#000; }
+.golfwang .product-content h1,
+.golfwang #add-to-cart,
+.golfwang .price-field.detail-price,
+.golfwang .description,
+.golfwang #product-variants label { font-family: Arial, Helvetica, sans-serif; }
+.golfwang .product-content h1 { margin-top: 3px; }
+.golfwang .price-field.detail-price div { margin-bottom:-4px; }
+.golfwang #product-variants label {  color:#2e3192; border-color: #918f8f; }
+.golfwang #product-variants label.radio-selected { color:#000; background-color: #fff200; border-color:#fff200; }
+.golfwang #add-to-cart { border-radius: 0; background-color:#ff0000; font-weight: bold; box-shadow: none; font-size:11px; padding:4px 1px 2px 8px; margin: 0; }
+.golfwang #product-variants ul { margin-top: 46px; }
+.golfwang .order-form { border:none; }
+.golfwang .description { font-size: 11px; }
+.golfwang a { color:#000; font-size:12px; }
+.golfwang a:hover, .golfwang header #cart a:hover { color:#EC519D; }
+.golfwang header #cart a { text-transform:lowercase; color:#000; }
+.golfwang .collection-products { width:1150px; float:none; }
+.golfwang footer a { margin:250px 0 50px; display: block; }
+#golfwang-page ul { width:900px; margin:0 auto; display: block; }
+#golfwang-page ul li { list-style: none; float:left; display: block; margin:20px; }
+.gw-nav { float:left; width:184px; height:125px; background: url(//web.archive.org/web/20180716111659im_/http://cdn.shopify.com/s/files/1/0181/6721/t/14/assets/gw-nav1-sprite.png?16349) 50% top; }
+.gw-nav:hover { background-position: bottom; }
+.gw-nav2 { background-image: url(//web.archive.org/web/20180716111659im_/http://cdn.shopify.com/s/files/1/0181/6721/t/14/assets/gw-nav2-sprite.png?16349); }
+.gw-nav3 { background-image: url(//web.archive.org/web/20180716111659im_/http://cdn.shopify.com/s/files/1/0181/6721/t/14/assets/gw-nav3-sprite.png?16349); }
+.gw-nav4 { background-image: url(//web.archive.org/web/20180716111659im_/http://cdn.shopify.com/s/files/1/0181/6721/t/14/assets/gw-nav4-sprite.png?16349); }
+.gw-nav5 { background-image: url(//web.archive.org/web/20180716111659im_/http://cdn.shopify.com/s/files/1/0181/6721/t/14/assets/gw-nav5-sprite.png?16349); }
+.gw-nav6 { background-image: url(//web.archive.org/web/20180716111659im_/http://cdn.shopify.com/s/files/1/0181/6721/t/14/assets/gw-nav6-sprite.png?16349); }
+.gw-nav7 { background-image: url(//web.archive.org/web/20180716111659im_/http://cdn.shopify.com/s/files/1/0181/6721/t/14/assets/gw-nav7-sprite.png?16349); }
+.gw-nav8 { background-image: url(//web.archive.org/web/20180716111659im_/http://cdn.shopify.com/s/files/1/0181/6721/t/14/assets/gw-nav8-sprite.png?16349); }
+.golfwang a.back-link { color:#2e3192; }
+.golfwang .description { border-bottom:none; }
+.golfwang .price-field div { font-weight: bold; }
+
+/* music pages*/
+.musics { width:98%; margin-top:75px; }
+
+.musics .thumb { position:relative; height:200px; overflow:hidden; }
+.musics .thumb:hover { margin-top:-5px; padding-right:5px; padding-bottom:5px; } 
+body.musics-page { background:none; }
+.musics-page #top a { color:#000; }
+.musics-page #cart a { color:#000;  }
+.musics-page #top a.home { color:#000; }
+.musics-page #top a.active { color:#000; }
+/*.musics-page #category-nav { visibility:hidden; }*/
+.product-musics #product-variants,
+.product-musics-no-video #product-variants { visibility:hidden; }
+.videoid { display:none; }
+
+.product-musics-download .description a { 
+    background: none repeat scroll 0 0 #00ABB9;
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px #666666;
+    clear: both;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 5px;
+    padding: 6px 13px;
+    text-transform: uppercase;
+    font-family:cooper_std_blackregular, Arial;
+    margin:-10px 20px 0;
+    float:right;
+    }
